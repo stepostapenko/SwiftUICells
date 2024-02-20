@@ -16,7 +16,7 @@ struct ContentView: View {
                             koefTwo: 0.6, valueTwo: 0.7,
                             koefThree: 0.5, valueThree: 0.8).frame(height: 120)
  
-                CellTwoView(wins: 16, loses: 11, returns: 5).frame(height: 120)
+                CellTwoView(wins: 16, loses: 11, returns: 5).frame(height: 140)
             }.padding()
         }
     }

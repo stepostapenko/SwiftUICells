@@ -47,10 +47,12 @@ struct CellTwoView: View {
                                      color: Color("CellGray"),
                                      alignment: .trailing)
                 }
+                .frame(maxHeight: 20)
+                .padding(.top, 10)
             }.frame(minWidth: 320)
         }
         .padding()
-        .frame(minWidth: 360, maxHeight: 160)
+        .frame(minWidth: 360, maxHeight: 220)
         .overlay(Rectangle()
             .stroke(Color.gray,
                     lineWidth: 3))
@@ -74,3 +76,8 @@ struct CellTwoView: View {
         }
     }
 }
+
+#Preview {
+    ContentView()
+}
+
